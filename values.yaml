@@ -1,0 +1,4 @@
+#image
+image:
+  imageRepository: razzy10/nextjs-app-image
+  tag: 0.0.9
