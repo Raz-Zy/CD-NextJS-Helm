@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
         - name: nextjs
-          image: razzy10/nextjs-app-image:0.0.15
+          image: "{{ .Values.image.imageRepository }}:{{ .Values.image.tag }}"
           ports:
             - containerPort: 3000
