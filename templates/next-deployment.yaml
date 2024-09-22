@@ -19,3 +19,4 @@ spec:
           image: "{{ .Values.image.imageRepository }}:{{ .Values.image.tag }}"
           ports:
             - containerPort: 3000
+            
